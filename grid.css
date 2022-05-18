@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 
 }
 
@@ -35,18 +34,24 @@ body {
 
 .imagen {
   width: 100%;
-  border: 15px solid black;
 
 }
 
 .boton {
+  width: 101%;
+  padding: 4%;
   border: 15px solid black;
+  margin-top: 5%;  border: 15px solid black;
+  margin-top: 5%;
+  width: 95%;
 
 }
 
 .perroprincipal {
   height: 400px;
   width: 450px;
+  border: 15px solid black;
+
 }
 .padre {
   width: 800px;
@@ -59,8 +64,8 @@ body {
   }
 
 .caja {
-  border: 4px solid black;
-  box-sizing: border-box;
+  box-sizing:content-box;
+  border: 5px solid black;
   
 
 }

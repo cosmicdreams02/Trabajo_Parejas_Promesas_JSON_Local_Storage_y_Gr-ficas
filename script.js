@@ -6,7 +6,8 @@ const btn = document.querySelector('#perro');
 btn.addEventListener('click', (e) => {
   fetch(apiUrl)
     .then((response) => response.json())
-    .then((message) => {
+    .then(({message}) => {
+     
       console.log(message);
       
     });

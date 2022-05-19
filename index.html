@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo Parejas Promesas, JSON, Local Storage y Gráficas
-    </title>
-    <link rel="stylesheet" href="grid.css">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo Parejas Promesas, JSON, Local Storage y Gráficas</title>
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body>
     <div class="general">
-        <div class="perro">
-            <div class="imagen">
-                <figure>
-                    <img class="perroprincipal" src="https://images.dog.ceo/breeds/springer-english/n02102040_3950.jpg"
-                        alt="...">
-                </figure>
-            </div>
+      <div class="perro">
+        <div class="imagen">
+          <figure>
+            <img
+              class="perroprincipal"
+              src="https://images.dog.ceo/breeds/springer-english/n02102040_3950.jpg"
+              alt="..."
+            />
+          </figure>
+        </div>
         <div class="boton">
-            <button id="perro">Perro</button>
-            <img src='' width='140px'heigth='140px'/>
+          <button  id="perro">Perro</button>
+          <img src="" width="140px" heigth="140px" />
         </div>
-    </div>
-        <div class="padre">
-            <div id="box1" class="caja"><img id="uno" src='' width='150px' height="150px"/></div>
-            <div id="box2" class="caja"><img id="dos" src='' width='150px' height="150px"/></div>
-            <div id="box3" class="caja"><img id="tres" src='' width='150px' height="150px"/></div>
-            <div id="box4" class="caja"><img id="cuatro" src='' width='150px' height="150px"/></div>
-            <div id="box5" class="caja"><img id="cinco" src='' width='150px' height="150px"/></div>
-            <div id="box6" class="caja"><img id="seis" src='' width='150px' height="150px"/></div>
-            <div id="box7" class="caja"><img id="siete" src='' width='150px' height="150px"/></div>
-            <div id="box8" class="caja"><img id="ocho" src='' width='150px' height="150px"/></div>
-            <div id="box9" class="caja"><img id="nueve" src='' width='150px' height="150px"/></div>
-            <div id="box10" class="caja"><img id="diez" src='' width='150px' height="150px"/></div>
-            <div id="box11" class="caja"><img id="once" src='' width='150px' height="150px"/></div>
-            <div id="box12" class="caja"><img id="doce" src='' width='150px' height="150px"/></div>
-            <div id="box13" class="caja"><img id="trece" src='' width='150px' height="150px"/></div>
-            <div id="box14" class="caja"><img id="catorce" src='' width='150px' height="150px"/></div> 
-            <div id="box15" class="caja"><img id="quince" src='' width='150px' height="150px"/></div>
-            <div id="box16" class="caja"><img id="dieciseis" src='' width='150px' height="150px"/></div>
-            <div id="box17" class="caja"><img id="diecisiete" src='' width='150px' height="150px"/></div>
-            <div id="box18" class="caja"><img id="dieciocho" src='' width='150px' height="150px"/></div>
-            <div id="box19" class="caja"><img id="diecinueve" src='' width='150px' height="150px"/></div>
-            <div id="box20" class="caja"><img id="veinte" src='' width='150px' height="150px"/></div>
+      </div>
+      <div class="padre">
+        <div id="box1" class="caja">
+          <img class="tamañoimagen" id="img1" src=""  />
+        </div>
+        <div id="box2" class="caja">
+          <img class="tamañoimagen" id="img2" src=""  />
+        </div>
+        <div id="box3" class="caja">
+          <img class="tamañoimagen" id="img3" src=""  />
+        </div>
+        <div id="box4" class="caja">
+          <img class="tamañoimagen" id="img4" src=""  />
+        </div>
+        <div id="box5" class="caja">
+          <img class="tamañoimagen" id="img5" src=""  />
+        </div>
+        <div id="box6" class="caja">
+          <img class="tamañoimagen" id="img6" src=""  />
+        </div>
+        <div id="box7" class="caja">
+          <img class="tamañoimagen" id="img7" src=""  />
+        </div>
+        <div id="box8" class="caja">
+          <img class="tamañoimagen" id="img8" src=""  />
+        </div>
+        <div id="box9" class="caja">
+          <img class="tamañoimagen"  id="img9" src=""  />
+        </div>
+        <div id="box10" class="caja">
+          <img class="tamañoimagen" id="img10" src=""  />
+        </div>
+        <div id="box11" class="caja">
+          <img class="tamañoimagen" id="img11" src=""  />
+        </div>
+        <div id="box12" class="caja">
+          <img class="tamañoimagen" id="img12" src=""  />
+        </div>
+        <div id="box13" class="caja">
+          <img class="tamañoimagen" id="img13" src=""  />
+        </div>
+        <div id="box14" class="caja">
+          <img class="tamañoimagen" id="img14" src=""  />
         </div>
 
+        <div id="box15" class="caja">
+          <img class="tamañoimagen" id="img15" src=""  />
+        </div>
+        <div id="box16" class="caja">
+          <img class="tamañoimagen" id="img16" src=""  />
+        </div>
+        <div id="box17" class="caja">
+          <img class="tamañoimagen" id="img17" src=""  />
+        </div>
+        <div id="box18" class="caja">
+          <img class="tamañoimagen" id="img18" src=""  />
+        </div>
+        <div id="box19" class="caja">
+          <img class="tamañoimagen" id="img19" src=""  />
+        </div>
+        <div id="box20" class="caja">
+          <img class="tamañoimagen" id="img20" src=""  />
+        </div>
+      </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>

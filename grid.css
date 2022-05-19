@@ -15,7 +15,36 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+@media (max-width: 75em) {
+  html {
+      font-size: 60%;
 
+  }
+  .general {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 61.25em) {
+  html {
+      font-size: 58%;
+  }
+  .general {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 28.75em) {
+  html {
+      font-size: 55%;
+  }
+  .general {
+    display: flex;
+    flex-direction: column;
+}
+}
 
 
 body {
@@ -38,35 +67,43 @@ body {
 }
 
 .boton {
-  width: 101%;
-  padding: 4%;
-  border: 15px solid black;
-  margin-top: 5%;  border: 15px solid black;
+  border: 1px solid black;
+  width: 130%;
   margin-top: 5%;
-  width: 95%;
-
+  display: flex;
+  flex-direction: column
 }
+
+#perro {
+  display: block;
+  padding: 3%;
+  border-radius: 5px;
+}
+
 
 .perroprincipal {
   height: 400px;
   width: 450px;
-  border: 15px solid black;
+  border: 1px solid black;
 
 }
 .padre {
-  width: 800px;
-  height: 800px;
+  margin: 5%;
+  width: 700px;
+  height: 700px;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20%;
-  margin: 3%;
+  
 
   }
 
 .caja {
-  box-sizing:content-box;
-  border: 5px solid black;
-  
+  border: 1px solid black;
 
 }
 
+.tamañoimagen {
+  width: 140px;
+  height: 140px;
+}
